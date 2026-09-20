@@ -1,19 +1,36 @@
-# Customer Churn Prediction 📉
+# 📉 Customer Churn Prediction
 
-End-to-end machine learning project for predicting customer churn and translating model results into actionable retention insights.
+An end-to-end machine learning project that predicts customer churn and converts model output into business-oriented retention insights.
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-F7931E?logo=scikit-learn)
-![Status](https://img.shields.io/badge/Status-Portfolio%20Project-success)
+![Status](https://img.shields.io/badge/Status-Portfolio-success)
 
 ## 🎯 Business Problem
 
-Customer churn reduces recurring revenue and increases acquisition costs. The goal is to identify customers who are most likely to leave so a business can prioritise retention efforts.
+Customer churn can reduce recurring revenue and increase acquisition costs.
 
-## 🔄 Workflow
+The goal is to identify customers with a higher probability of leaving so that retention teams can prioritise outreach.
 
-`Data → EDA → Preprocessing → Feature Engineering → Model Training → Evaluation → Business Insights`
+## 🔄 ML Pipeline
+
+```text
+Data
+ ↓
+EDA
+ ↓
+Cleaning & Preprocessing
+ ↓
+Feature Engineering
+ ↓
+Model Training
+ ↓
+Evaluation
+ ↓
+Churn Risk
+ ↓
+Business Insights
+```
 
 ## 🤖 Models
 
@@ -31,7 +48,7 @@ Customer churn reduces recurring revenue and increases acquisition costs. The go
 - Confusion Matrix
 - ROC-AUC
 
-For churn prediction, recall and ROC-AUC are especially useful because missing a likely churner can be more costly than reviewing an extra customer.
+Recall and ROC-AUC are particularly useful when the cost of missing a likely churner is important.
 
 ## 📁 Structure
 
@@ -54,27 +71,21 @@ pip install -r requirements.txt
 python src/train_model.py
 ```
 
-For exploratory analysis, open the notebook in `notebooks/`.
-
 ## 💼 Business Questions
 
-- Which customer segments have the highest churn risk?
+- Which customer segments show higher churn risk?
 - How do tenure, contract type and monthly charges relate to churn?
-- Which model gives the best balance of precision and recall?
-- Which features should the business monitor for retention campaigns?
+- Which model provides the most useful trade-off between precision and recall?
+- Which factors should be monitored for retention?
 
-## 🔮 Future Improvements
+## 🔮 Improvements
 
 - Hyperparameter optimisation
 - SHAP explainability
-- Probability-based retention scoring
-- Streamlit prediction dashboard
-- Model monitoring and drift checks
+- Probability-based risk scoring
+- Streamlit dashboard
+- Model monitoring and drift detection
 
-## ⚠️ Note
+> Educational portfolio project using a synthetic dataset.
 
-This repository is designed as an educational portfolio project. The included dataset is synthetic so the project is reproducible without exposing customer information.
-
----
-
-⭐ **Predict risk. Explain the model. Turn predictions into retention action.**
+⭐ **Predict risk → Explain the model → Support retention decisions**
