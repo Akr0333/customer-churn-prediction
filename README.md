@@ -10,26 +10,12 @@ An end-to-end machine learning project that predicts customer churn and converts
 
 Customer churn can reduce recurring revenue and increase acquisition costs.
 
-The goal is to identify customers with a higher probability of leaving so that retention teams can prioritise outreach.
+The goal is to identify customers with a higher probability of leaving so retention teams can prioritise outreach.
 
 ## 🔄 ML Pipeline
 
 ```text
-Data
- ↓
-EDA
- ↓
-Cleaning & Preprocessing
- ↓
-Feature Engineering
- ↓
-Model Training
- ↓
-Evaluation
- ↓
-Churn Risk
- ↓
-Business Insights
+Data → EDA → Cleaning → Feature Engineering → Model Training → Evaluation → Churn Risk → Business Insights
 ```
 
 ## 🤖 Models
@@ -41,14 +27,7 @@ Business Insights
 
 ## 📊 Evaluation
 
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- Confusion Matrix
-- ROC-AUC
-
-Recall and ROC-AUC are particularly useful when the cost of missing a likely churner is important.
+Accuracy • Precision • Recall • F1-score • Confusion Matrix • ROC-AUC
 
 ## 📁 Structure
 
