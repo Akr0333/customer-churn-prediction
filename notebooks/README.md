@@ -1,20 +1,12 @@
-# Notebook Guide
+# 📓 Churn Analysis Notebooks
 
-Open your Jupyter/Colab environment and create the main notebook as:
+This folder contains exploratory notebooks for the customer churn project.
 
-`customer_churn_analysis.ipynb`
+## Recommended notebook flow
 
-Recommended sections:
+1. **01_eda.ipynb** — data quality, distributions and churn patterns
+2. **02_feature_engineering.ipynb** — transformations and predictive features
+3. **03_model_comparison.ipynb** — baseline models and evaluation
+4. **04_business_insights.ipynb** — segment and revenue-risk analysis
 
-1. Business problem
-2. Dataset overview
-3. Data quality checks
-4. Exploratory Data Analysis
-5. Feature engineering
-6. Train/test split
-7. Model comparison
-8. Confusion matrices and ROC curves
-9. Feature importance
-10. Business recommendations
-
-The reusable training and prediction code lives in `src/`, so the notebook can focus on analysis, visuals and communication.
+Keep notebooks focused on exploration and communication; reusable logic belongs in `src/`.
