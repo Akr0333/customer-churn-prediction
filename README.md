@@ -73,15 +73,3 @@ The important output is not just a prediction — it is a workflow for identifyi
 - Model monitoring and drift detection
 
 ⭐ **Predict risk → Explain the model → Support retention decisions**
-
-
-## 📸 Project Demo
-
-> Add dashboard screenshots, model evaluation charts and a short demo GIF here so recruiters can understand the result before reading the code.
-
-### Suggested visuals
-- Problem / dataset overview
-- KPI or EDA chart
-- Model evaluation (confusion matrix / ROC-AUC where applicable)
-- Final dashboard or application
-
